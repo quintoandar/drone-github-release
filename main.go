@@ -22,7 +22,7 @@ func main() {
 		cli.StringFlag{
 			Name:   "api-key",
 			Usage:  "api key to access github api",
-			EnvVar: "PLUGIN_API_KEY,GITHUB_RELEASE_API_KEY,GITHUB_TOKEN",
+			EnvVar: "PLUGIN_API_KEY,GITHUB_RELEASE_API_KEY,GITHUB_TOKEN,DRONE_NETRC_USERNAME",
 		},
 		cli.StringSliceFlag{
 			Name:   "files",
